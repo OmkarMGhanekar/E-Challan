@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "515273845645",
+    "firebase_url": "https://splashloginmotionlayout-70890-default-rtdb.firebaseio.com",
+    "project_id": "splashloginmotionlayout-70890",
+    "storage_bucket": "splashloginmotionlayout-70890.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:515273845645:android:af26ad06a6d70671c32bc4",
+        "android_client_info": {
+          "package_name": "com.halo.splashloginmotionlayout"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "515273845645-k9i8napkvvcmje265c3hjbv4tqqdc39l.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAogbDljoHeg4FE_JKH8Jb1nSKifQRhPww"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "515273845645-k9i8napkvvcmje265c3hjbv4tqqdc39l.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

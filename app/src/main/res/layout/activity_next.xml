@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+
+    android:orientation="vertical"
+    android:background="@drawable/bg"
+    android:layout_height="match_parent"
+    tools:context=".next">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="20dp"
+        android:orientation="vertical">
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_margin="20dp"
+
+            android:layout_gravity="center"
+            android:src="@drawable/invoice"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="ADD CHALLAN"
+            android:layout_gravity="center"
+            android:textSize="25sp"
+            android:fontFamily="sans-serif-medium"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+
+            />
+
+    <EditText
+        android:id="@+id/editextnext"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="65dp"
+        android:background="@drawable/edittext_bg"
+        android:drawableStart="@drawable/ic_baseline_drive_eta_24"
+        android:drawableLeft="@drawable/ic_baseline_email_24"
+        android:drawablePadding="16dp"
+        android:hint="Vehicle No."
+        android:inputType="textCapCharacters"
+        android:padding="16dp"
+        android:textSize="14sp" />
+
+    <EditText
+        android:id="@+id/edit1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="35dp"
+        android:background="@drawable/edittext_bg"
+        android:drawableStart="@drawable/ic_baseline_person_24"
+        android:drawableLeft="@drawable/ic_baseline_person_24"
+        android:drawablePadding="16dp"
+        android:hint="Police Name"
+        android:inputType="textCapCharacters"
+        android:padding="16dp"
+        android:textSize="14sp" />
+        <EditText
+            android:id="@+id/edit2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="35dp"
+            android:background="@drawable/edittext_bg"
+            android:drawableStart="@drawable/ic_baseline_attach_money_24"
+            android:drawableLeft="@drawable/ic_baseline_attach_money_24"
+            android:drawablePadding="16dp"
+            android:hint="Fine Amount"
+            android:inputType="number"
+            android:padding="16dp"
+            android:textSize="14sp" />
+        <Button
+            android:id="@+id/add"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:textSize="20sp"
+            android:background="@drawable/button_bg"
+            android:text="ADD"
+            android:textColor="@color/white"
+            android:textStyle="bold" />
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    android:background="@drawable/bg"
+    tools:context=".MainActivity1">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="100dp"
+            android:textSize="30sp"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:fontFamily="sans-serif-medium"
+            android:text="E-Challan"
+            android:layout_gravity="center"
+            />
+        <View
+            android:layout_marginTop="100dp"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@android:color/black"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="16sp"
+            android:textColor="#000"
+            android:fontFamily="sans-serif-medium"
+            android:padding="10dp"
+            android:text="Note:  Please capture clear image of vehicle number and evidence details to help us take appropiate action. "
+            android:layout_gravity="center"
+            />
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@android:color/black"/>
+        <ImageView
+            android:id="@+id/img"
+            android:layout_gravity="center"
+            android:layout_width="300dp"
+            android:layout_marginTop="10dp"
+            android:layout_height="200dp"
+            />
+
+        <Button
+            android:id="@+id/browse"
+            android:layout_width="200dp"
+            android:layout_height="40dp"
+            android:layout_margin="10dp"
+            android:textStyle="bold"
+            android:textSize="17sp"
+            android:layout_gravity="center"
+            android:background="@drawable/button_bg"
+            android:layout_marginBottom="10dp"
+            android:text="Browse" />
+    </LinearLayout>
+
+    <EditText
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/vehicle_no"
+        android:padding="10dp"
+        android:hint="Please enter the vehicle no. present in image."
+        android:layout_marginTop="10dp"
+        android:textSize="20sp"
+        android:textStyle="italic"/>
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/button_bg"
+        android:textColor="#000"
+        android:id="@+id/upload"
+        android:textStyle="bold"
+        android:textSize="18sp"
+        android:text="Signup"/>
+
+</androidx.appcompat.widget.LinearLayoutCompat>

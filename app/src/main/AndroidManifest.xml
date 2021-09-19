@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.halo.splashloginmotionlayout">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <uses-feature
+        android:name="android.hardware.camera2"
+        android:required="true" />
+
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/civilian"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity1"></activity>
+        <activity android:name=".add_fine" />
+        <activity android:name=".listview" />
+        <activity android:name=".recyclerview" />
+        <activity android:name=".notify" />
+        <activity android:name=".displayvehicle" />
+        <activity android:name=".report" />
+        <activity android:name=".add_vehicle" />
+        <activity android:name=".next" />
+        <activity android:name=".insert" />
+        <activity android:name=".news" />
+        <activity android:name=".fine" />
+        <activity android:name=".notification" />
+        <activity android:name=".rules">
+            <meta-data
+                android:name="com.google.firebase.ml.vision.DEPENDENCIES"
+                android:value="ocr" />
+        </activity>
+        <activity android:name=".Login" />
+        <activity android:name=".information" />
+        <activity android:name=".payment" />
+        <activity android:name=".ForgotPassword" />
+        <activity android:name=".regesitration" />
+        <intent-filter>
+            <action android:name="android.intent.action.MAIN" />
+
+            <category android:name="android.intent.category.LAUNCHER" />
+        </intent-filter>
+        <activity android:name=".traffic_education" />
+        <activity android:name=".Contact_us" />
+        <activity android:name=".User_Cv" />
+        <activity android:name=".Police_CV" />
+        <activity android:name=".MainActivity" />
+        <activity android:name=".Activity_Splash_Login">
+
+        </activity>
+    </application>
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+</manifest>
