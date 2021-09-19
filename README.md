@@ -1,3 +1,3 @@
 # RTO-Vehicle
-<h2> RTO VEHICLE APP
+<h2 alignment="center"> RTO VEHICLE APP
 </h2>
